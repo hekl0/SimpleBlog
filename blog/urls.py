@@ -9,4 +9,7 @@ urlpatterns = [
     # path('logout/', views.LogoutView.as_view(), name='logout'),
     path('signup', views.signup, name='signup'),
     path('addpost', views.addPost, name='addpost'),
+    path('like', views.like, name='like'),
+    path('dislike', views.dislike, name='dislike'),
+    path('liked', views.liked_list, name='liked_list'),
 ]
